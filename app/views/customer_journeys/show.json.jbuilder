@@ -1,0 +1,1 @@
+json.partial! "customer_journeys/customer_journey", customer_journey: @customer_journey

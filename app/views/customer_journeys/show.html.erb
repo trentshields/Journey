@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @customer_journey.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @customer_journey.description %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @customer_journey.user %>
+</p>
+
+<%= link_to 'Edit', edit_customer_journey_path(@customer_journey) %> |
+<%= link_to 'Back', customer_journeys_path %>

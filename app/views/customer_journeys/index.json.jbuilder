@@ -1,0 +1,1 @@
+json.array! @customer_journeys, partial: 'customer_journeys/customer_journey', as: :customer_journey

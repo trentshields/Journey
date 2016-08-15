@@ -1,0 +1,2 @@
+module CustomerJourneysHelper
+end
